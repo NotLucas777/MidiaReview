@@ -1,18 +1,77 @@
-body{
+html{
+    background-color: #EFEFEF;
+    font-family:'Arial Narrow Bold';
     margin: 0;
-    background-color: aqua;
 }
 
-div{
-    background-color: blueviolet;
-}
-
-.nav-wrapper{
+.nav-header-geral{
+    justify-content: space-evenly;
     display: flex;
-    background-color: #FF1D00;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #ececec;
+    
 }
 
-.brand-logo{
-    width: 150px;
-    height: 86px;
+.logo{
+    justify-content: left;
+    width: 215px;
+    height: 70px;
+}
+
+.header-centro{
+    a{
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 32px;
+        color: #0C0C0C;
+    }
+
+    a:after{
+        content: "|";
+        margin-left: 12.5px;
+    }
+
+    li:last-child a::after{
+        content: "";
+    }
+
+    justify-content: center;
+    margin: 0%;
+
+}
+
+.centro{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 12.5px;
+}
+
+.botoes-direita{
+    transition: background-color 0.3s;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #EFEFEF;
+}
+
+.dark-mode {
+    background-color: #19191a;
+    #userButton, #darkModeButton{
+    background-color: #ececec;
+    }
+}
+
+#userButton, #darkModeButton{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ececec;
 }
