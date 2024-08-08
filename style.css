@@ -1,9 +1,15 @@
 html{
-    background-color: #EFEFEF;
+    background-color: #f5f5dc;
     font-family:'Arial Narrow Bold';
     margin: 0;
 }
 
+body{
+    margin: 0;
+    background-color: transparent !important;
+}
+
+/*HEADER*/
 .nav-header-geral{
     justify-content: space-evenly;
     display: flex;
@@ -63,7 +69,7 @@ html{
 }
 
 .dark-mode {
-    background-color: #19191a;
+    background-color: #0a0a23;
     #userButton, #darkModeButton{
     background-color: #ececec;
     }
@@ -74,4 +80,64 @@ html{
     padding: 10px;
     border-radius: 5px;
     background-color: #ececec;
+}
+
+/*FOOTER*/
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer-redesocial{
+    gap: laft ;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border: 2px solid #000;
+    padding: 10px;
+    background-color: #d3b45e;
+    margin: 0px;
+}
+
+.logo-social{
+    margin-left: 35px;
+    justify-content:center;
+    width: 300px;
+    height: 70px;
+}
+
+.footer-opcoes{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: #dc143c;
+    margin: 0px;
+}
+
+.footer-ajuda{
+    a{
+        cursor: pointer;
+        font-size: 18px;
+        color: #0C0C0C;
+    }
+    a:after{
+        content: "|";
+        margin-left: 12.5px;
+    }
+
+    li:last-child a::after{
+        content: "";
+    }
+
+    justify-content: center;
+    margin: 0%;
+}
+
+.ajuda{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 15px;
 }
