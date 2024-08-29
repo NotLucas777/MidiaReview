@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Nerko+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Nerko+One&family=SUSE:wght@100..800&display=swap" rel="stylesheet">
@@ -20,7 +19,7 @@
 <body>
     <header class="nav-header-geral">
 
-        <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\mediareview_branco_horizonte-removebg-preview.png" class="logo"></img>
+        <img src="Imagens/mediareview_preto_horizonte-removebg-preview.png" class="logo"></img>
         
         <div class="header-centro">
             <ul class="centro">
@@ -49,65 +48,95 @@
         <h1 id="filmes"><span class="material-symbols-outlined">arrow_downward</span> Filme <span class="material-symbols-outlined">arrow_downward</span></h1>
         
         <div class="conteudo-fila">
-            <div class="card star-wars">
-                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpg" alt="Star Wars" style="width: 100%;">
-                <h2>Nome do filme</h2>
+            <div class="card">
+                <img src="Imagens/Star-Wars.jpeg" alt="Star Wars" style="width: 100%;">
+                <h2>Star Wars</h2>
                 <p>A princesa Leia é mantida refém pelas forças imperiais comandadas por Darth Vader. Luke Skywalker e o capitão Han Solo precisam libertá-la e restaurar a liberdade e a justiça na galáxia.</p>
-                <Button class="tagfilme"> #Aventura </Button>
-                <Button class="tagfilme"> #Terror </Button>
-                <button class="Fix">Saiba mais</button>
+                <div class="container-tags">
+                    <Button class="tagfilme"> #Ficção científica </Button>
+                    <Button class="tagfilme"> #Ação </Button>
+                </div>
+                <button class="saiba-mais">Saiba mais</button>
             </div>
             
-            <div class="card piratas-do-caribe">
-                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpg" style="width: 100%;">
-                <h2>Nome do filme</h2>
-                <Button class="tagfilme"> #Aventura </Button>
-                <button>Saiba mais</button>
+            <div class="card">
+                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\The Godfather.jpeg" style="width: 100%;">
+                <h2>O Poderoso Chefão</h2>
+                <P>Uma família mafiosa luta para estabelecer sua supremacia nos Estados Unidos depois da Segunda Guerra Mundial. Uma tentativa de assassinato deixa o chefão Vito Corleone incapacitado e força os filhos Michael e Sonny a assumir os negócios.</P>
+                <div class="container-tags">
+                    <Button class="tagfilme"> #Crime </Button>
+                    <Button class="tagfilme"> #Ficção policial </Button>
+                </div>
+                <button class="saiba-mais">Saiba mais</button>
             </div>
 
             <div class="card">
-                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpg" style="width: 100%;">
-                <h2>Nome do filme</h2>
-                <p>Bio curta do filme.</p>
-                <button>Saiba mais</button>
+                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\guerra-infinita.jpeg" style="width: 100%;">
+                <h2>Vingadores: Guerra Infinita</h2>
+                <p>Homem de Ferro, Capitão América, Thor, Hulk e os Vingadores se unem para combater o maligno Thanos. Em uma missão para coletar todas as seis pedras infinitas, Thanos planeja usá-las para infligir sua vontade maléfica sobre a humanidade.</p>
+                <div class="container-tags">
+                    <Button class="tagfilme"> #Ação </Button>
+                    <Button class="tagfilme"> #Ficção científica </Button>
+                </div>
+                <button class="saiba-mais">Saiba mais</button>
             </div>
 
             <div class="card">
-                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpg" style="width: 100%;">
-                <h2>Nome do filme</h2>
-                <p>Bio curta do filme.</p>
-                <button>Saiba mais</button>
+                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\The-Curious-Case-of-Benjamin-Button.jpeg" style="width: 100%;">
+                <h2>O Curioso Caso de Benjamin Button</h2>
+                <p>Benjamin Button é um homem que nasce idoso e rejuvenesce à medida que o tempo passa. Doze anos depois de seu nascimento, ele conhece Daisy, uma criança que entra e sai de sua vida enquanto cresce para ser dançarina. Embora tenha todos os tipos de aventuras incomuns, sua relação com Daisy o faz acreditar que os dois se encontrarão no momento certo da vida.</p>
+                <div class="container-tags">
+                    <Button class="tagfilme"> #Romance </Button>
+                    <Button class="tagfilme"> #Fantasia </Button>
+                </div>
+                <button class="saiba-mais">Saiba mais</button>
             </div>
 
         </div>
 
         <div class="conteudo-fila">
             <div class="card">
-                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpg" style="width: 100%;">
+                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpeg" style="width: 100%;">
                 <h2>Nome do filme</h2>
-                <p>Bio curta do filme.</p>
-                <button>Saiba mais</button>
+               <p>Bio curta do filme.</p>
+                <div class="container-tags">
+                    <Button class="tagfilme"> # </Button>
+                    <Button class="tagfilme"> # </Button>
+                </div>
+                <button class="saiba-mais">Saiba mais</button>
             </div>
             
             <div class="card">
-                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpg" style="width: 100%;">
+                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpeg" style="width: 100%;">
                 <h2>Nome do filme</h2>
-                <p>Bio curta do filme.</p>
-                <button>Saiba mais</button>
+               <p>Bio curta do filme.</p>
+                <div class="container-tags">
+                    <Button class="tagfilme"> # </Button>
+                    <Button class="tagfilme"> # </Button>
+                </div>
+                <button class="saiba-mais">Saiba mais</button>
             </div>
             
             <div class="card">
-                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpg" style="width: 100%;">
+                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpeg" style="width: 100%;">
                 <h2>Nome do filme</h2>
-                <p>Bio curta do filme.</p>
-                <button>Saiba mais</button>
+               <p>Bio curta do filme.</p>
+                <div class="container-tags">
+                    <Button class="tagfilme"> # </Button>
+                    <Button class="tagfilme"> # </Button>
+                </div>
+                <button class="saiba-mais">Saiba mais</button>
             </div>
 
             <div class="card">
-                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpg" style="width: 100%;">
+                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpeg" style="width: 100%;">
                 <h2>Nome do filme</h2>
-                <p>Bio curta do filme.</p>
-                <button>Saiba mais</button>
+               <p>Bio curta do filme.</p>
+                <div class="container-tags">
+                    <Button class="tagfilme"> # </Button>
+                    <Button class="tagfilme"> # </Button>
+                </div>
+                <button class="saiba-mais">Saiba mais</button>
             </div>
 
         </div>
@@ -120,62 +149,94 @@
         
         <div class="conteudo-fila">
             <div class="card star-wars">
-                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpg" alt="Star Wars" style="width: 100%;">
+                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpeg" alt="Star Wars" style="width: 100%;">
                 <h2>Nome do filme</h2>
-                <p>Bio curta do filme.</p>
-                <button>Saiba mais</button>
+               <p>Bio curta do filme.</p>
+                <div class="container-tags">
+                    <Button class="tagfilme"> # </Button>
+                    <Button class="tagfilme"> # </Button>
+                </div>
+                <button class="saiba-mais">Saiba mais</button>
             </div>
             
             <div class="card">
-                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpg" style="width: 100%;">
+                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpeg" style="width: 100%;">
                 <h2>Nome do filme</h2>
-                <p>Bio curta do filme.</p>
-                <button>Saiba mais</button>
+               <p>Bio curta do filme.</p>
+                <div class="container-tags">
+                    <Button class="tagfilme"> # </Button>
+                    <Button class="tagfilme"> # </Button>
+                </div>
+                <button class="saiba-mais">Saiba mais</button>
             </div>
 
             <div class="card">
-                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpg" style="width: 100%;">
+                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpeg" style="width: 100%;">
                 <h2>Nome do filme</h2>
-                <p>Bio curta do filme.</p>
-                <button>Saiba mais</button>
+               <p>Bio curta do filme.</p>
+                <div class="container-tags">
+                    <Button class="tagfilme"> # </Button>
+                    <Button class="tagfilme"> # </Button>
+                </div>
+                <button class="saiba-mais">Saiba mais</button>
             </div>
 
             <div class="card">
-                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpg" style="width: 100%;">
+                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpeg" style="width: 100%;">
                 <h2>Nome do filme</h2>
-                <p>Bio curta do filme.</p>
-                <button>Saiba mais</button>
+               <p>Bio curta do filme.</p>
+                <div class="container-tags">
+                    <Button class="tagfilme"> # </Button>
+                    <Button class="tagfilme"> # </Button>
+                </div>
+                <button class="saiba-mais">Saiba mais</button>
             </div>
 
         </div>
 
         <div class="conteudo-fila">
             <div class="card">
-                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpg" style="width: 100%;">
+                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpeg" style="width: 100%;">
                 <h2>Nome do filme</h2>
-                <p>Bio curta do filme.</p>
-                <button>Saiba mais</button>
+               <p>Bio curta do filme.</p>
+                <div class="container-tags">
+                    <Button class="tagfilme"> # </Button>
+                    <Button class="tagfilme"> # </Button>
+                </div>
+                <button class="saiba-mais">Saiba mais</button>
             </div>
             
             <div class="card">
-                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpg" style="width: 100%;">
+                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpeg" style="width: 100%;">
                 <h2>Nome do filme</h2>
-                <p>Bio curta do filme.</p>
-                <button>Saiba mais</button>
+               <p>Bio curta do filme.</p>
+                <div class="container-tags">
+                    <Button class="tagfilme"> # </Button>
+                    <Button class="tagfilme"> # </Button>
+                </div>
+                <button class="saiba-mais">Saiba mais</button>
             </div>
             
             <div class="card">
-                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpg" style="width: 100%;">
+                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpeg" style="width: 100%;">
                 <h2>Nome do filme</h2>
-                <p>Bio curta do filme.</p>
-                <button>Saiba mais</button>
+               <p>Bio curta do filme.</p>
+                <div class="container-tags">
+                    <Button class="tagfilme"> # </Button>
+                    <Button class="tagfilme"> # </Button>
+                </div>
+                <button class="saiba-mais">Saiba mais</button>
             </div>
 
             <div class="card">
-                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpg" style="width: 100%;">
+                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpeg" style="width: 100%;">
                 <h2>Nome do filme</h2>
-                <p>Bio curta do filme.</p>
-                <button>Saiba mais</button>
+               <p>Bio curta do filme.</p>
+                <div class="container-tags">
+                    <Button class="tagfilme"> # </Button>
+                    <Button class="tagfilme"> # </Button>
+                </div>
+                <button class="saiba-mais">Saiba mais</button>
             </div>
 
         </div>
@@ -188,62 +249,94 @@
         
         <div class="conteudo-fila">
             <div class="card star-wars">
-                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpg" alt="Star Wars" style="width: 100%;">
+                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpeg" alt="Star Wars" style="width: 100%;">
                 <h2>Nome do filme</h2>
-                <p>Bio curta do filme.</p>
-                <button>Saiba mais</button>
+               <p>Bio curta do filme.</p>
+                <div class="container-tags">
+                    <Button class="tagfilme"> # </Button>
+                    <Button class="tagfilme"> # </Button>
+                </div>
+                <button class="saiba-mais">Saiba mais</button>
             </div>
             
             <div class="card">
-                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpg" style="width: 100%;">
+                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpeg" style="width: 100%;">
                 <h2>Nome do filme</h2>
-                <p>Bio curta do filme.</p>
-                <button>Saiba mais</button>
+               <p>Bio curta do filme.</p>
+                <div class="container-tags">
+                    <Button class="tagfilme"> # </Button>
+                    <Button class="tagfilme"> # </Button>
+                </div>
+                <button class="saiba-mais">Saiba mais</button>
             </div>
 
             <div class="card">
-                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpg" style="width: 100%;">
+                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpeg" style="width: 100%;">
                 <h2>Nome do filme</h2>
-                <p>Bio curta do filme.</p>
-                <button>Saiba mais</button>
+               <p>Bio curta do filme.</p>
+                <div class="container-tags">
+                    <Button class="tagfilme"> # </Button>
+                    <Button class="tagfilme"> # </Button>
+                </div>
+                <button class="saiba-mais">Saiba mais</button>
             </div>
 
             <div class="card">
-                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpg" style="width: 100%;">
+                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpeg" style="width: 100%;">
                 <h2>Nome do filme</h2>
-                <p>Bio curta do filme.</p>
-                <button>Saiba mais</button>
+               <p>Bio curta do filme.</p>
+                <div class="container-tags">
+                    <Button class="tagfilme"> # </Button>
+                    <Button class="tagfilme"> # </Button>
+                </div>
+                <button class="saiba-mais">Saiba mais</button>
             </div>
 
         </div>
 
         <div class="conteudo-fila">
             <div class="card">
-                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpg" style="width: 100%;">
+                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpeg" style="width: 100%;">
                 <h2>Nome do filme</h2>
-                <p>Bio curta do filme.</p>
-                <button>Saiba mais</button>
+               <p>Bio curta do filme.</p>
+                <div class="container-tags">
+                    <Button class="tagfilme"> # </Button>
+                    <Button class="tagfilme"> # </Button>
+                </div>
+                <button class="saiba-mais">Saiba mais</button>
             </div>
             
             <div class="card">
-                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpg" style="width: 100%;">
+                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpeg" style="width: 100%;">
                 <h2>Nome do filme</h2>
-                <p>Bio curta do filme.</p>
-                <button>Saiba mais</button>
+               <p>Bio curta do filme.</p>
+                <div class="container-tags">
+                    <Button class="tagfilme"> # </Button>
+                    <Button class="tagfilme"> # </Button>
+                </div>
+                <button class="saiba-mais">Saiba mais</button>
             </div>
             
             <div class="card">
-                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpg" style="width: 100%;">
+                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpeg" style="width: 100%;">
                 <h2>Nome do filme</h2>
-                <p>Bio curta do filme.</p>
-                <button>Saiba mais</button>
+               <p>Bio curta do filme.</p>
+                <div class="container-tags">
+                    <Button class="tagfilme"> # </Button>
+                    <Button class="tagfilme"> # </Button>
+                </div>
+                <button class="saiba-mais">Saiba mais</button>
             </div>
 
             <div class="card">
-                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpg" style="width: 100%;">
+                <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\cursos-sobre-Star-Wars-1.jpeg" style="width: 100%;">
                 <h2>Nome do filme</h2>
-                <p>Bio curta do filme.</p>
-                <button>Saiba mais</button>
+               <p>Bio curta do filme.</p>
+                <div class="container-tags">
+                    <Button class="tagfilme"> # </Button>
+                    <Button class="tagfilme"> # </Button>
+                </div>
+                <button class="saiba-mais">Saiba mais</button>
             </div>
 
         </div>
@@ -254,7 +347,7 @@
         
         <div class="footer-redesocial">
 
-            <img src="C:\Users\lucas\OneDrive\Desktop\ProjetoDev\MidiaReview\Imagens\mediareview_branco_horizonte-removebg-preview.png" class="logo-social"></img>
+            <img src="Imagens/mediareview_preto_horizonte-removebg-preview.png" class="logo-social"></img>
             
             <div class="icons-social">
                 <i class="fab fa-instagram"></i>
