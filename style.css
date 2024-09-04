@@ -21,7 +21,7 @@ body{
     margin-bottom: 60px;
     margin-left: 80px;
     margin-right: 80px;
-    background-color: rebeccapurple;
+    background-color: darkslateblue;
     
 }
 
@@ -37,7 +37,7 @@ body{
         cursor: pointer;
         text-decoration: none;
         font-family: "SUSE", sans-serif;
-        font-size: 32px;
+        font-size: 26px;
         color: snow;
     }
 
@@ -68,7 +68,7 @@ body{
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
-    background-color: rebeccapurple
+    background-color: darkslateblue;
 }
 
 .dark-mode {
@@ -82,7 +82,7 @@ body{
     cursor: pointer;
     padding: 10px;
     border: none;
-    background-color: rebeccapurple;
+    background-color: darkslateblue;
     color: snow;
 }
 
@@ -101,7 +101,7 @@ footer{
     border-left: 4px solid #000;
     border-top: 4px solid #000;
     padding: 25px 20px 10px 20px;
-    background-color: rebeccapurple;
+    background-color: darkslateblue;
     margin-top: 80px;
 }
 
@@ -125,7 +125,7 @@ footer{
     border-left: 4px solid #000;
     border-bottom: 4px solid #000;
     padding: 0px 20px 25px 20px;
-    background-color: rebeccapurple;
+    background-color: darkslateblue;
     margin: 0px;
 }
 
@@ -178,7 +178,7 @@ section{
         font-family: "Handjet", sans-serif;
         text-align: center;
         font-weight: 800;
-        background-color: rebeccapurple;
+        background-color: darkslateblue;
         margin-bottom: 50px;
         border-radius: 12px;
     }
