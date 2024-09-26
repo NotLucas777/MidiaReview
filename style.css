@@ -168,7 +168,7 @@ section{
     font-family: "SUSE", sans-serif !important;
     
     img{
-        border-radius: 50px;
+        border-radius: 10px;
         width: 332px;
         height: 476px;
     }
@@ -185,7 +185,7 @@ section{
 
     
     
-    .tagfilme{
+    .tagfilme, .tagseries, .taganime, .tagjogos{
         font-weight: 100;
         cursor: default;
         font-family: "Nerko One";
@@ -198,12 +198,24 @@ section{
         border-radius: 50px;
     }
     
-    
-}
+    .filme-ativo{
+        background-color: orangered;
+    }
+    .serie-ativo{
+        background-color: orangered;
+    }
+    .anime-ativo{
+        background-color: orangered;
+    }
+    .jogos-ativo{
+        background-color: orangered;
+    }}
 
 .conteudo-fila{
-    display: flex;
-    gap: 35px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
     padding-bottom: 35px;
     
     .card{
@@ -256,4 +268,3 @@ section{
         bottom: 70px;
     }
 }
-
